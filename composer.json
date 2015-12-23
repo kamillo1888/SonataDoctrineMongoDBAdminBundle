@@ -17,8 +17,8 @@
         }
     ],
     "require": {
-        "doctrine/mongodb-odm-bundle": "~3.0",
-        "doctrine/mongodb-odm": "~1.0",
+        "doctrine/mongodb-odm-bundle": "dev-master",
+        "doctrine/mongodb-odm": "dev-master",
         "sonata-project/admin-bundle": "~2.3"
     },
     "require-dev": {
@@ -40,7 +40,7 @@
             "dev-2.0": "2.0.x-dev",
             "dev-2.1": "2.1.x-dev",
             "dev-2.2": "2.2.x-dev",
-            "dev-master": "2.3.x-dev"
+            "dev-master": "master"
         }
     }
 }

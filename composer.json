@@ -16,6 +16,32 @@
             "homepage": "https://github.com/sonata-project/SonataDoctrineMongoDBAdminBundle/contributors"
         }
     ],
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "doctrine/mongodb-odm",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/kamillo1888/mongodb-odm.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        },
+        {
+            "type":"package",
+            "package": {
+                "name": "doctrine/mongodb-odm-bundle",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/kamillo1888/mongodb-odm-bundle.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],
     "require": {
         "doctrine/mongodb-odm-bundle": "dev-master",
         "doctrine/mongodb-odm": "dev-master",

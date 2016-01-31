@@ -35,7 +35,7 @@
                 "name": "doctrine/mongodb-odm-bundle",
                 "version": "dev-master",
                 "source": {
-                    "url": "https://github.com/kamillo1888/DoctrineMongoODMModule.git",
+                    "url": "https://github.com/kamillo1888/DoctrineMongoODMBundle.git",
                     "type": "git",
                     "reference":"master"
                 }
